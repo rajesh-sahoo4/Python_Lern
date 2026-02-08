@@ -76,12 +76,23 @@ dte='2026|03|15'
 dte1=(dte.split("|"))
 dte2=('-'.join(dte1))
 print(dte2) 
-
+# Q18
 s1='Python is very simple and easy to learn' #simple and easy
 s2=s1.split()
 s3=s2[3:6:]
 s4=(' '.join(s3))
 print(s4)
+#Q19
+lang='Java_is_very_powerful'
+lang1=(lang.split("_"))
+lang2=(' '.join(lang1))
+print(lang2)
+#Q20
+rev='I love Python'
+rev1=(rev.replace('Python','Python'[::-1]))
+print(rev1)
+
+
 
 '''Pratice question of List'''
 
