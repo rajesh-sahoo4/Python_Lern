@@ -131,6 +131,41 @@ indentation Error - Spacebar add hote hai error ata hai.
 # exm--L1=[10,20,30]
 # print(L1.extend([20,30,50,60]))---[10,20,30,20,30,50,60]
 
+# insert()--insert data in index position
+#  print(var_name.insert(1,element))
+# 1-index position,element-Data
+
+# Remove()--remove element in value wise
+# print(var_name.remove(value))
+
+#Pop()--remove index position wise
+# print(var_name.pop(index_no))
+
+#Reverse()--reverse the list
+# var_name.reverse()
+
+#copy()--copy data
+# print(var_name.copy())
+
+#clear()--clear tha all data in list
+# var_name.clear()-
+# output-[]
+
+#max()-the max value of list element
+# print(max(var_name))
+
+#min()--minium value of list element
+# print(min(var_name))
+
+#sort()--sorting the data in asending or desendig order 
+# by defult asending order
+# print(var_name.sort()) --asending order
+# print(var_name.sort(reverse=true))--desending order
+
+#Del_command--remove element in index wise
+# del var_name[index_no]/output--remove index no data
+# del var_name--output-name_error(list not found)
+
 
 
 

@@ -112,6 +112,49 @@ text1='India_is_my_country'
 sent=' '.join(text1.split('_'))
 print(sent[::-1])
 
-
 '''Pratice question of List'''
+
+l=[10,20,30,50,'good','is','what',50]
+print(len(l))
+print(l.count(50))
+print(l.index('good'))
+l.append(50)
+print(l)
+l1=[40,70,60]
+l.extend(l1)
+print(l)
+
+l.insert(5,58)
+print(l)
+
+l.remove('good')
+print(l)
+
+l.pop(5)
+print(l)
+
+l.reverse()
+print(l)
+
+x=l.copy()
+print(x)
+
+# xl=[10,20,50,'raju']
+# x1.clear()
+# print(x1)
+x1=[10,50,35,98,74,25,89]
+print(max(x1))
+
+print(min(x1))
+
+x1.sort()
+print(x1)
+
+x1.sort(reverse=True)
+print(x1)
+
+x2=[10,20,30,50]
+del x2[1]
+print(x2)
+
 
