@@ -91,7 +91,26 @@ print(lang2)
 rev='I love Python'
 rev1=(rev.replace('Python','Python'[::-1]))
 print(rev1)
+# Q21
+sft='Software-Testing-Manual'
+sft1=(sft.split('-'))
+sft2=(' '.join(sft1))
+print(sft2)
+# Q22
+numb='123-456-789'
+# numb1=(numb.split('-'))
+# numb2=(' '.join(numb1))
+# print(numb2)
 
+# or
+print(" ".join(numb.split('-')))
+# Q23
+text='programmingLanguage'
+print(text[11:])
+# Q24
+text1='India_is_my_country'
+sent=' '.join(text1.split('_'))
+print(sent[::-1])
 
 
 '''Pratice question of List'''
