@@ -156,5 +156,20 @@ print(x1)
 x2=[10,20,30,50]
 del x2[1]
 print(x2)
+# nested list
+list=[10,20,[30,40],50]
+print(list[2])
+print(list[2][0])
+print(list[2][1])
 
+li=[10,20,[30,40],50]
+print(li[2][1])
+
+li1=[[1,2],[3,4],[5,6]]
+print(li1[2][0])
+li2=[1,[2,[3,4]]]
+print(li2[1][1][1])
+
+li3=[[10,20,30],[40,50],[60]]
+print(len(li3))
 

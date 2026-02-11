@@ -166,6 +166,8 @@ indentation Error - Spacebar add hote hai error ata hai.
 # del var_name[index_no]/output--remove index no data
 # del var_name--output-name_error(list not found)
 
+'''Tuple'''
+# 
 
 
 
