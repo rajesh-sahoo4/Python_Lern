@@ -170,6 +170,12 @@ print(li1[2][0])
 li2=[1,[2,[3,4]]]
 print(li2[1][1][1])
 
-li3=[[10,20,30],[40,50],[60]]
-print(len(li3))
+tup=(12,13,14,15,(1,2,3),30,40,('s','a','n',(10,20,30,'java'),70),'python')
+
+output--- a,java,python,70 
+print(tup[7][3][3])
+print(tup[7][1])
+print(tup[8])
+# print(tup[])
+print(tup[7][4])
 
