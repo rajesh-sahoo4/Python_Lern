@@ -115,10 +115,13 @@ indentation Error - Spacebar add hote hai error ata hai.
 '''List methods'''
 
 # 1)len()-count length
+# print(len(var_name))
 
 # 2)count()-perticular one element find in list
+# print(var_name.count(value))
 
 # index()-check index position 
+# print(var_name.index(Data,position))
 
 # append()-item add end of exiting list.
 # only one element added in exiting list data.
@@ -167,7 +170,28 @@ indentation Error - Spacebar add hote hai error ata hai.
 # del var_name--output-name_error(list not found)
 
 '''Tuple'''
+# tuple is order,unitable collection of element.
+# all elements are separated by(,) and enclosed by paranthasis()
+# it allow dupplicate
+# they create different way such as
+tuple() ,( ), 
+
+'''Tuple methods'''
+# all()--this function returns true if all elements are true.
+# print(all(tup_name))
+
+#any()--this function returns true if any one element are true .
+# print(any(tup_name))
+
+# lenth()--this function returns any number of tuples.
+# print(len(tup_name))
+
+#count()--this function counts number of accurance of specific element. 
+# print(tup_name.count())
+
 # 
+
+
 
 
 
