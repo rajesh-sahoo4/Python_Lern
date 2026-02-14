@@ -1,4 +1,4 @@
-'''Pratice Question of Slice,Split and join'''
+'''Pratice Question of Slice,Split and join in string data_type'''
 # txt='python'
 # print(txt[0:4])
 # print(txt[2:])
@@ -170,12 +170,25 @@ print(li1[2][0])
 li2=[1,[2,[3,4]]]
 print(li2[1][1][1])
 
-tup=(12,13,14,15,(1,2,3),30,40,('s','a','n',(10,20,30,'java'),70),'python')
+'''Pratice question of tuple datatype'''
+tu=tuple([10,20,30,40]) #lsit to tuple
+print(tu)
+tu1=()
+print(tu1)
+# tuple indexing 
+tu2=(10,20,30,40,'python',5.5,90)
+print(tu2[0])
+print(tu2[1])
 
-output--- a,java,python,70 
-print(tup[7][3][3])
-print(tup[7][1])
-print(tup[8])
-# print(tup[])
-print(tup[7][4])
+
+
+
+# nested tuple
+# tup=(12,13,14,15,(1,2,3),30,40,('s','a','n',(10,20,30,'java'),70),'python')
+# # output--- a,java,python,70 
+# print(tup[7][3][3])
+# print(tup[7][1])
+# print(tup[8])
+# # print(tup[])
+# print(tup[7][4])
 
