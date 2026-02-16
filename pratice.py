@@ -66,4 +66,33 @@ print(s.replace("easy","simple"))
 # 22.Split the string into words.
 print(s.split())
 
+'''Operator'''
+# arithmatic operator
+a=20
+b=3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(b**2)
+print(a//b)
 
+# assignment operator
+c=a+b
+print(c)
+c+=10
+print(c)
+c-=10
+print(c)
+c*=2
+print(c)
+c/=2
+print(c)
+c%=2
+print(c)
+c**=2
+print(c)
+x=13
+x/=2
+print(x)

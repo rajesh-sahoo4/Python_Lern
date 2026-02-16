@@ -174,8 +174,8 @@ indentation Error - Spacebar add hote hai error ata hai.
 # all elements are separated by(,) and enclosed by paranthasis()
 # it allow dupplicate
 # they create different way such as
-tuple() ,( ), 
-
+# tuple() ,( ), 
+# t=(1,2,3,true,"rajesh")
 '''Tuple methods'''
 # all()--this function returns true if all elements are true.
 # print(all(tup_name))
@@ -189,12 +189,26 @@ tuple() ,( ),
 #count()--this function counts number of accurance of specific element. 
 # print(tup_name.count())
 
-# 
+# index()--this function is used the find index value of specific elements.
+# print(tup_name.index(2))
+
+# max()--this function returns maximum value in tuple. 
+
+# min()--this fuction returns minimum value in tuple.
+
+# sorted()--the function sort the data .
+# print(t.sort())
 
 
+'''Dictanory'''
+#  it is an unorder set of key value pairs.
+# keys are unique.
+# it can use both homogenious and hetrogenious elements. 
+# Dict. keys are immuatable. 
+# dict. are not allows indexing and slicing. 
+#  d={"a":2,"b":3,"c":14}
 
-
-
+'''dict. Function'''
 
 
 
