@@ -93,6 +93,69 @@ c%=2
 print(c)
 c**=2
 print(c)
-x=13
-x/=2
-print(x)
+c//=2
+print(c)
+# x=13
+# x/=2
+# print(x)
+
+# comparison operator
+x=25
+y=5
+print(x==y)
+print(x!=y)
+print(x>y)
+print(x<y)
+print(x>=y)
+print(x<=y)
+
+# Logical Operator
+x1=10
+print(x1<5 and x1==10)
+print(x1<4 or x1>3)
+print(not(x1>5 and x1<4))
+
+#Membership Operator
+fruits=['Apple',"banana",'cherry']
+print('cherry' in fruits)
+print('pineapple' not in fruits)
+
+s='Python'
+print('y' in s)
+print('l' in s)
+print('s' not in s)
+
+# Identify Operator
+a1=10
+b1=10
+c1=100
+c2=105
+print(a1 is b1)
+print(a1 is not b1)
+
+# condition_statement 
+# 30,40,50
+num=int(input("enter your no:-"))
+if num>=30:
+    print('approved')
+elif num>=40:
+   print("yes u eligiable")
+elif num>=50:
+    print("u are welcome")
+else:
+  print("not approved")
+
+# divided 3 and 5
+
+# if a number divisible by 3 ---fizz
+# if a number divisible by 5---buzz
+# if a number divisible by both 3 and 5---fizzbuzz
+
+# calculate the electricity bill according to the unit
+# 0-100 5 per unnit
+# 101-200 7 per unit
+# 201-300 10 per unit 
+# avobe 300 15 per unit
+# unit=int(input("enter your unit:-"))
+
+
