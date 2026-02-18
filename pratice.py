@@ -135,15 +135,15 @@ print(a1 is not b1)
 
 # condition_statement 
 # 30,40,50
-num=int(input("enter your no:-"))
-if num>=30:
-    print('approved')
-elif num>=40:
-   print("yes u eligiable")
-elif num>=50:
-    print("u are welcome")
-else:
-  print("not approved")
+# num=int(input("enter your no:-"))
+# if num>=30:
+#     print('approved')
+# elif num>=40:
+#    print("yes u eligiable")
+# elif num>=50:
+#     print("u are welcome")
+# else:
+#   print("not approved")
 
 # divided 3 and 5
 
@@ -158,4 +158,17 @@ else:
 # avobe 300 15 per unit
 # unit=int(input("enter your unit:-"))
 
+# age=int(input('Enter your age:-'))
+# if age >=18:
+#   print('you can vote')
+# if age >=21:
+#     print("you can also vote")
+# else: 
+#     print('not eligable for voting')    
 
+# even or odd
+numb=int(input("Enter number: "))
+if numb % 2 == 0:
+    print("Even")
+else:
+    print("odd")    

@@ -208,8 +208,19 @@ indentation Error - Spacebar add hote hai error ata hai.
 # dict. are not allows indexing and slicing. 
 #  d={"a":2,"b":3,"c":14}
 
-'''dict. Function'''
+'''Condition Statement'''  
 
+# if statement--the if statement excute a block of code only when the condition true.
+# if condition:
+#     statement(s)
+
+# if-else statement--the if else statement excutes 1-one block when condition is true. and 2-another block when condtion is false. 
+#   if condition:
+#     statement(s)
+#   else:
+#     statement(s)
+
+# if-else-elef statement--the statement allows a programm one excution path from multiple condition. 
 
 
 
