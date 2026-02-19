@@ -167,8 +167,17 @@ print(a1 is not b1)
 #     print('not eligable for voting')    
 
 # even or odd
-numb=int(input("Enter number: "))
-if numb % 2 == 0:
-    print("Even")
-else:
-    print("odd")    
+# numb=int(input("Enter number: "))
+# if numb % 2 == 0:
+#     print("Even")
+# else:
+#     print("odd")    
+
+
+
+# loop
+for i in range(10):
+    print(i)
+
+for i in range(10):
+    print('a')    

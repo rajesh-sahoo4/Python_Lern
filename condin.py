@@ -17,7 +17,12 @@ else:
 # 3️⃣ Largest of Three Numbers
 a=int(input("Enter First number:-"))
 b=int(input("Enter Second number:-"))
+c=int(input("enter Third number:-"))
  
+
+
+
+
 # 4️⃣Take age and print:
 # Child (0–12)
 # Teen (13–19)
