@@ -18,7 +18,7 @@ else:
 a=int(input("Enter First number:-"))
 b=int(input("Enter Second number:-"))
 c=int(input("enter Third number:-"))
- 
+
 
 
 

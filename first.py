@@ -221,6 +221,12 @@ indentation Error - Spacebar add hote hai error ata hai.
 #     statement(s)
 
 # if-else-elef statement--the statement allows a programm one excution path from multiple condition. 
+# if condition:
+#     statement(s)
+# elif condition:
+#     statement(s)
+# else:
+'''Loops'''
 
 
 

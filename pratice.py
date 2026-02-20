@@ -176,8 +176,52 @@ print(a1 is not b1)
 
 
 # loop
-for i in range(10):
+# for i in range(10):
+#     print(i)
+
+# for i in range(10):
+#     print('a')    
+
+l=[10,20,30,40,50]
+n=len(l)
+for i in range(n):
     print(i)
 
-for i in range(10):
-    print('a')    
+s='automation'
+for ch in s:
+    print(ch)    
+mul=5
+for  num2 in range(1,11):
+    # print(num2)
+    print(mul,'X',num2,'=',mul*num2)
+
+# 1️.Print numbers from 1 to 10 using for loop.
+for num in range(1,10):
+    print(num)
+
+# 2️.Print numbers from 10 to 1 using for loop.
+for num1 in range(10,1,-1):
+    print(num1)
+
+# 3️.Print all even numbers between 1 and 20.
+for ev in range(1,20):
+    if ev%2==0:
+        print(ev,'even number')
+# 4️.Print all odd numbers between 1 and 20.
+
+# 5️.Print the multiplication table of a given number.
+mul=5
+for  num2 in range(1,11):
+    # print(num2)
+    print(mul,'X',num2,'=',mul*num2)
+    
+# ##########6.Find the sum of first N natural numbers.
+# 7️.Find the factorial of a number using for loop.
+# 8️.Count how many numbers are divisible by 3 between 1 and 100.
+# 9️.Count the digits in a number using for loop.
+# 10.Reverse a number using for loop.
+# #########1️1.Check whether a number is prime.
+# 1,####️2.Print all prime numbers between 1 and 100.
+# 1️3.Check whether a number is Armstrong.
+# 1️4.Find the sum of digits of a number.
+# 1️5.Check whether a number is palindrome. 
