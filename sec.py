@@ -179,10 +179,6 @@ print(tu1)
 tu2=(10,20,30,40,'python',5.5,90)
 print(tu2[0])
 print(tu2[1])
-
-
-
-
 # nested tuple
 # tup=(12,13,14,15,(1,2,3),30,40,('s','a','n',(10,20,30,'java'),70),'python')
 # # output--- a,java,python,70 
