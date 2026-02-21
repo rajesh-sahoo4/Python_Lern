@@ -1,5 +1,4 @@
-'''Pratice Question of Condition statement and loops statement'''
-
+# Pratice Question of Condition statement and loops statement
 # 1️⃣ Positive, Negative or Zero
 num=int(input("enter your no:-"))
 if num >0:
@@ -75,12 +74,32 @@ elif mark>=40:
 else:
     print('Fail')            
 # 8️⃣Find the second largest of three numbers.
+x=int(input('Enter First number:- '))
+y=int(input('Enter second number:-'))
+z=int(input('Enter Third number:-'))
+if x>y and x<z:
+    print('Second Largest is:',x)
+elif y>x and y<z:
+    print('Second Largest is:',y)
+else:
+    print('Second Largest is:',z)        
 # 9️⃣Traffic light system:
-# Red → Stop
-# Yellow → Ready
-# Green → Go
+# Red → Stop,Yellow → Ready,Green → Go
+color=input('Enter traffic light color:-')
+if color.lower() =='red':
+    print('Stop')
+elif color.lower() =='yellow':
+    print('Ready')
+elif color.lower() =='green':
+    print('Go')
+else:
+    print('invalid color')            
 #🔟Check whether a number is palindrome using conditions.
-
+num2=input('Enter number: ')
+if num2 == num2[::-1]:
+    print('Palindrome')
+else:
+    print('Not palindrome')    
 #11 calculate the electricity bill according to the unit
 # 0-100 5 per unnit,101-200 7 per unit,201-300 10 per unit and avobe 300 15 per unit
 # unit=int(input("enter your unit:-"))
