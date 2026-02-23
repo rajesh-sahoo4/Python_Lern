@@ -227,11 +227,6 @@ indentation Error - Spacebar add hote hai error ata hai.
 #     statement(s)
 # else:
 '''Loops'''
-num2=input('Enter number: ')
-if num2 == num2[::-1]:
-    print('Palindrome')
-else:
-    print('Not palindrome')    
 
 
 
