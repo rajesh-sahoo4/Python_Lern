@@ -227,7 +227,10 @@ indentation Error - Spacebar add hote hai error ata hai.
 #     statement(s)
 # else:
 '''Loops'''
-
+for ev in range(1,20):
+    if ev%2!=0:
+        print(ev,'odd number')
+    
 
 
 

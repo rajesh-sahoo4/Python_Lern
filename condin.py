@@ -119,17 +119,17 @@
 
 #11 calculate the electricity bill according to the unit
 # 0-100 5 per unnit,101-200 7 per unit,201-300 10 per unit and avobe 300 15 per unit
-units=int(input("enter your unit:-"))
-bill=0
-if units<=100:
-   bill=units*5
-elif units<=200:
-    bill=(100*5)+(units-100)*7 
-elif units<=300:
-    bill=(100*5)+(100*7)+(units-200)*10
-else:
-    bill=(100*5)+(100*7)+(100*10)+(units-300)*15
-print('Total Electricity Bill=',bill)    
+# units=int(input("enter your unit:-"))
+# bill=0
+# if units<=100:
+#    bill=units*5
+# elif units<=200:
+#     bill=(100*5)+(units-100)*7 
+# elif units<=300:
+#     bill=(100*5)+(100*7)+(units-200)*10
+# else:
+#     bill=(100*5)+(100*7)+(100*10)+(units-300)*15
+# print('Total Electricity Bill=',bill)    
 
 
 #12 divided 3 and 5
@@ -205,17 +205,21 @@ for num1 in range(10,1,-1):
 for ev in range(1,20):
     if ev%2==0:
         print(ev,'even number')
+    else:
+        print(ev,'odd number')
 # 4️.Print all odd numbers between 1 and 20.
-
 # 5️.Print the multiplication table of a given number.
-mul=5
-for  num2 in range(1,11):
-    # print(num2)
-    print(mul,'X',num2,'=',mul*num2)
+# mul=5
+# for  num2 in range(1,11):
+#     # print(num2)
+#     print(mul,'X',num2,'=',mul*num2)
 
-    # num4=int(input('Enter '))
+    # num4=int(input('Enter your number:- '))
+    # for mul1 in range(1,11):
+    #     print(num4,'X',mul1,'=',num4*mul1)
     
 # ##########6.Find the sum of first N natural numbers.
+
 # 7️.Find the factorial of a number using for loop.
 # 8️.Count how many numbers are divisible by 3 between 1 and 100.
 # 9️.Count the digits in a number using for loop.
