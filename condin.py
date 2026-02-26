@@ -220,6 +220,7 @@ for ev in range(1,20):
     
 # ##########6.Find the sum of first N natural numbers.
 
+
 # 7️.Find the factorial of a number using for loop.
 # 8️.Count how many numbers are divisible by 3 between 1 and 100.
 # 9️.Count the digits in a number using for loop.
