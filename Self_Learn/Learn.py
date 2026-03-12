@@ -31,4 +31,14 @@ Lights the trav'ller in the dark:
 Tho' I know not what you are,
 Twinkle, twinkle, little star.
 ''')
+a='31.2'
+b=float(a)
+t=type(b)
+
+print (t)
+
+# chapter 2
+a=12
+b=25
+print(a+b)
 
