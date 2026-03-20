@@ -231,3 +231,19 @@ for ev in range(1,20):
 # 1️4.Find the sum of digits of a number.
 # 1️5.Check whether a number is palindrome. 
 # 16 
+s=input('Enter your string:')
+rev=" "
+for i in s:
+    rev=i+rev
+    print(rev)
+
+s=input('Enter a string:')
+count_upper=0
+count_lower=0 
+
+i=10
+while 1>10:
+    print(i)
+    i=i-1  
+
+    

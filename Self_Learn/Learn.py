@@ -31,14 +31,28 @@ Lights the trav'ller in the dark:
 Tho' I know not what you are,
 Twinkle, twinkle, little star.
 ''')
-a='31.2'
-b=float(a)
-t=type(b)
+# a='31.2'
+# b=float(a)
+# t=type(b)
 
-print (t)
+# print (t)
 
 # chapter 2
-a=12
-b=25
+# a=12
+# b=25
+# print(a+b)
+
+'''two type conversion hota hai .
+1-Type conversion-automatic convert into type 
+2-Type casting-manual convert into type '''
+# Type conversition
+a=2
+b=4.25
 print(a+b)
+# type casting 
+c=int('2')
+d=4.56
+print(c+d)
+ 
+
 
