@@ -61,17 +61,19 @@ print(c+d)
 
 
 # pratice question
-first=int(input('Enter your First_No:'))
-second=int(input('Enter your second_No:'))
-print("Sum=",first+second)
+# first=int(input('Enter your First_No:'))
+# second=int(input('Enter your second_No:'))
+# print("Sum=",first+second)
 
-# 02 WAP to input side of a square and print its area. 
-side=float(input('Enter square side: '))
-print('area =',side**2)
+# # 02 WAP to input side of a square and print its area. 
+# side=float(input('Enter square side: '))
+# print('area =',side**2)
 
-# WAP to input 2 floating point numbers & print their average . 
-avg1=float(input('Enter your first_floating point:'))
-avg2=float(input('Enter your Second_floating point:'))
-avg=avg1+avg2
-print('average of point',avg/2)
+# # WAP to input 2 floating point numbers & print their average . 
+# avg1=float(input('Enter your first_floating point:'))
+# avg2=float(input('Enter your Second_floating point:'))
+# avg=avg1+avg2
+# print('average of point',avg/2)
 
+str='This is string .\n we are creating its in python'
+print(str)
