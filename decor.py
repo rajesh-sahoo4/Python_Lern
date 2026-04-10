@@ -114,14 +114,42 @@
 
 # l=[1,2,3,4,5,1,2,6,7]
 
-import copy
-l1=[10,20,[30,40]]
-l2=copy.deepcopy(l1)
+# import copy
+# l1=[10,20,[30,40]]
+# l2=copy.deepcopy(l1)
 
 
-l2[2][0]=99
-print(l2)
-print(l1)
+# l2[2][0]=99
+# print(l2)
+# print(l1)
+
+# shallow copy 
+import copy 
+orginal =[[1,2],[3,4]]
+shallow=copy.copy(orginal)
+shallow[0][0]=105
+
+print('Original:',orginal)
+print('Shallow:',shallow)
+
+# deep copy 
+orginal_1=[[1,2],[3,4]]
+shallow_1=copy.deepcopy(orginal_1)
+shallow_1[0][0]=105
+
+print('Original:',orginal_1)
+print('Shallow:',shallow_1)
+
+
+# import copy
+
+# lst1 = [1, 2, [3, 4]]
+# lst2 = copy.copy(lst1)
+
+# lst2[2] = [100, 200]
+
+# print(lst1)
+# print(lst2)
 
 
 
