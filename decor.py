@@ -124,21 +124,21 @@
 # print(l1)
 
 # shallow copy 
-import copy 
-orginal =[[1,2],[3,4]]
-shallow=copy.copy(orginal)
-shallow[0][0]=105
+# import copy 
+# orginal =[[1,2],[3,4]]
+# shallow=copy.copy(orginal)
+# shallow[0][0]=105
 
-print('Original:',orginal)
-print('Shallow:',shallow)
+# print('Original:',orginal)
+# print('Shallow:',shallow)
 
-# deep copy 
-orginal_1=[[1,2],[3,4]]
-shallow_1=copy.deepcopy(orginal_1)
-shallow_1[0][0]=105
+# # deep copy 
+# orginal_1=[[1,2],[3,4]]
+# shallow_1=copy.deepcopy(orginal_1)
+# shallow_1[0][0]=105
 
-print('Original:',orginal_1)
-print('Shallow:',shallow_1)
+# print('Original:',orginal_1)
+# print('Shallow:',shallow_1)
 
 
 # import copy
@@ -152,9 +152,24 @@ print('Shallow:',shallow_1)
 # print(lst2)
 
 
+# Assignment Operator
 
+#'=','+=','-=','*=','/=','%=','**=','//='
 
+# logical operator
+  #         cond1    cond2      result
+# or        True     True        True
+#            True     False      True
+#            False    True       True
+#            False    False      False
 
+# age=25
+# if not age:
+#     print('hi')
+
+# Membership Operator  
+# 1. in
+# 2. not in
 
 
 
