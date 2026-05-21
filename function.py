@@ -139,3 +139,20 @@ print(add_value(10,20))
 
 # multipication started 
 # multipication result:200
+
+# recursive function example
+ 
+def desc_num(n):
+    if n==0:
+        return   #base condition
+    print(n)
+    desc_num(n-1) #recursive call
+desc_num(5)       
+
+#2 write a recursive function for print the factorial of 10
+
+def fact(x):
+    if x ==1:
+        return 1
+    return x*fact(x-1)
+print(fact(10))
