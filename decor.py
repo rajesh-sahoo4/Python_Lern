@@ -40,7 +40,7 @@
 # def function_2():
 #     print('hi my name is rajesh')
 # function_2() 
-# # 4
+# 4
 # def decoor_f(cal):
 #    def sub(a,b):
 #     min=a-b
@@ -53,6 +53,38 @@
 #   return add
 # print(cal(10,20))
 # print(cal(40,30))
+
+# 5 age validator
+def age_validate(func):
+  def wrapper(age):
+    if age >=18:
+      return func(age)
+    else:
+      print('not elegible for  voting')
+  return wrapper  
+@age_validate
+def check_age(age):
+  print('valid for voting')
+
+check_age(20)
+check_age(15)
+# 6 divisible by 5
+def divisible_5(func1):
+  def wrapper(num1):
+    if num1%5==0:
+      return func1(num1)
+    else:
+      print('number is not divisible by 5')
+  return wrapper
+@divisible_5
+def check_number(num1):
+  print('Number is  divisible by 5')
+check_number(25)
+check_number(19)
+# 7 check positive or -ve
+# 8 pass or fail decorator (condition if mark>35 then pass  otherwise u fail)
+# 9 string length decor(condition if length >=5 then print the string else not print the string)
+
 
 # '''List comphersion'''
 
