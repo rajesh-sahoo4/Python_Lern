@@ -156,3 +156,5 @@ def fact(x):
         return 1
     return x*fact(x-1)
 print(fact(10))
+
+# iterator
