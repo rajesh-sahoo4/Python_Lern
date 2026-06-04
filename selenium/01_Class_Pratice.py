@@ -61,6 +61,7 @@ import time
 driver=webdriver.Chrome()
 # for check single checkbox
 driver.get('https://rahulshettyacademy.com/AutomationPractice/')
+driver.maximize_window()
 # checkbox=driver.find_element(By.NAME,"checkBoxOption1")
 # checkbox.click()
 # print(checkbox.is_selected())
@@ -69,8 +70,17 @@ driver.get('https://rahulshettyacademy.com/AutomationPractice/')
 # for multiple checkbox
 # checkboxes=driver.find_elements(By.XPATH,'//input[@type="checkbox"]')
 # for checkbox in checkboxes:
-# checkbox.click()
+#  checkbox.click()
+# #  print(checkboxes.is_selected())
 # time.sleep(3)
 # driver.quit()
-checkboxes = driver.find_elements(By.XPATH, "//input[@type='checkbox']")
-print(len(checkboxes))
+# checkboxes = driver.find_elements(By.XPATH, "//input[@type='checkbox']")
+# print(len(checkboxes))
+
+# radio btn
+# for single radio btn
+rd_btn=driver.find_element(By.XPATH,"//input[@value='radio1']")
+rd_btn.click()
+print(rd_btn.is_selected())
+time.sleep(2)
+
