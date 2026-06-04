@@ -1,3 +1,4 @@
+# Form Validation
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -45,6 +46,8 @@ address.send_keys('Kendrapara')
 time.sleep(3)
 submit=driver.find_element(By.CSS_SELECTOR,'#submit')
 submit.submit()
-time.sleep(3)
+time.sleep(5)
+
+
 
 

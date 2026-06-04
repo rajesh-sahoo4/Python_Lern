@@ -1,3 +1,4 @@
+# Locator_Partical
 from selenium import webdriver  #selenium se webdriver import
 from selenium.webdriver.common.by import By  #by locator  import kar raha hai
 import time      #time module import
