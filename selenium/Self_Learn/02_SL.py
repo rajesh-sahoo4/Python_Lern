@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 import time 
 # driver=webdriver.Chrome()
 driver=webdriver.Edge()
+driver.maximize_window()
 driver.get('https://www.saucedemo.com/')
 username=driver.find_element(By.ID,'user-name')
 username.send_keys('standard_user')

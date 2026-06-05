@@ -23,3 +23,5 @@ for result in results:
         break
 time.sleep(12)
 driver.quit()
+
+
