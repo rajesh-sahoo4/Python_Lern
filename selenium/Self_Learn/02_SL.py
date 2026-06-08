@@ -17,11 +17,11 @@ time.sleep(2)
 # add_to_cart=driver.find_element(By.XPATH,"//button[contains(@id,'add-to-cart-sauce-labs-backpack')]").click()
 # time.sleep(4)
 # multiple element click
-add_to_carts=driver.find_elements(By.TAG_NAME,'button')
-for add_to_cart in add_to_carts:
-    add_to_cart.click()
-    # print(len(add_to_cart))
-time.sleep(5)
+# add_to_carts=driver.find_elements(By.TAG_NAME,'button')
+# for add_to_cart in add_to_carts:
+#     add_to_cart.click()
+#     # print(len(add_to_cart))
+# time.sleep(5)
 
 
 driver.quit() 
